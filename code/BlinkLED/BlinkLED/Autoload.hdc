@@ -1,0 +1,8 @@
+erase
+cow build
+# Build the project if necessary
+build WAIT
+# Load the project into the target
+la
+# Reset the target
+reset

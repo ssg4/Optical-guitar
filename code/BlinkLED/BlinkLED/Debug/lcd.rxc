@@ -1,0 +1,8 @@
+-cpu=rx600
+-lang=c
+-include="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED"
+-include="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\RPDL"
+-output=obj="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\lcd.obj"
+-debug
+"C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\lcd.c"
+-nologo

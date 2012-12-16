@@ -1,0 +1,3 @@
+-cpu=rx600
+-output="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\BlinkLED.lib"
+-head=runtime,stdio,stdlib

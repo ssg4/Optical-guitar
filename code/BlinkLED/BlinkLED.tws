@@ -1,0 +1,17 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"BlinkLED" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\main.c" 
+"C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\resetprg.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\main.c" -8 -30 837 612 1 1 
+"C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\resetprg.c" 0 0 939 258 0 0 
+[LOADED_PROJECTS]
+"BlinkLED" 
+[END]

@@ -1,0 +1,96 @@
+Optimizing Linkage Editor (V.10.02.00.000)        16-Oct-2012 15:51:20
+
+*** Options ***
+
+-subcommand=C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\BlinkLED.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\BlinkLED.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/010,C_1,C_2,C,L*,C$*,D*,PResetPRG,P,W*/0FFFC0000,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\dbsct.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\hwsetup.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_ADC_10.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_ADC_12.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_BSC.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_CMT.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_DMAC.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_EXDMAC.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_IIC.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_INTC.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_MTU2.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_not_RPDL.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_POE.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_RTC.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_SCI.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_SPI.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_TMR.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\Interrupt_WDT.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\lcd.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\main.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\resetprg.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\sbrk.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\switch.obj"
+-input="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\YRDKRX62N_RSPI_API.obj"
+-library="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\RPDL\RX62N_library.lib"
+-library="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\BlinkLED.lib"
+-library="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\GlyphLib_v2.lib"
+-output="C:\Users\Grewal\Dropbox\Optical-guitar\code\BlinkLED\BlinkLED\Debug\BlinkLED.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00000010  00000060        51   1
+R_1
+                                  00000061  000000b2        52   1
+B_2
+                                  000000b4  00000103        50   2
+R_2
+                                  00000104  00000105         2   2
+B
+                                  00000108  000007ef       6e8   4
+R
+                                  000007f0  00000e9f       6b0   4
+SU
+                                  00000ea0  0000119f       300   4
+SI
+                                  000011a0  0000129f       100   4
+C_1
+                                  fffc0000  fffc0af7       af8   1
+C_2
+                                  fffc0af8  fffc0d0f       218   2
+C
+                                  fffc0d10  fffc0dab        9c   4
+L
+                                  fffc0dac  fffc0e2c        81   4
+C$DSEC
+                                  fffc0e30  fffc0e53        24   4
+C$BSEC
+                                  fffc0e54  fffc0e6b        18   4
+C$VECT
+                                  fffc0e6c  fffc126b       400   4
+D
+                                  fffc126c  fffc191b       6b0   4
+D_2
+                                  fffc191c  fffc191d         2   2
+D_1
+                                  fffc191e  fffc196f        52   1
+PResetPRG
+                                  fffc1970  fffc19b9        4a   1
+P
+                                  fffc19ba  fffc79af      5ff6   1
+W_1
+                                  fffc79b0  fffc79d1        22   1
+W_2
+                                  fffc79d2  fffc79e5        14   2
+W
+                                  fffc79e8  fffc79e8         0   4
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4
